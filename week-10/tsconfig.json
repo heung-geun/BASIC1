@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // 최신 ES2022 기능을 모두 사용하기 위해 설정
+    "module": "NodeNext", // 최신 Node.js ESM 지원
+    "moduleResolution": "nodeNext", // 모듈을 찾는 방식을 결정하는 옵션
+    "strict": true, // 엄격 모드
+    "esModuleInterop": true // CommonJS와 ESM 간의 호환성을 위한 설정
+  }
+}
